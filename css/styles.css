@@ -34,7 +34,6 @@ img {
   color: #4d5ae5;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .logo .studio {
   color: #2e2f42;
@@ -72,8 +71,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
-.container {
+.header > .container {
   display: flex;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -81,6 +82,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .menu-list {
   display: flex;
