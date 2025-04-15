@@ -147,7 +147,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 .advantage_text {
   font-size: 16px;
@@ -182,12 +181,19 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
+  gap: 24px;
+}
+.team-card {
+  padding: 32px 0;
 }
 .team_name {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team_fullname {
   font-weight: 500;
@@ -195,6 +201,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .team_posit {
   font-size: 16px;
