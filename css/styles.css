@@ -99,9 +99,6 @@ img {
   padding: 188px 0;
   background-color: #2e2f42;
 }
-/*.inside-solutions {
-  background-color: #2e2f42;
-}*/
 .solutions {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -137,12 +134,20 @@ img {
 
 /*SECTION 2*/
 
+.advantage {
+  display: flex;
+  gap: 24px;
+}
+.advantage-list {
+  width: calc((100% - 72px) / 4);
+}
 .advantage_title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .advantage_text {
   font-size: 16px;
@@ -150,7 +155,19 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*SECTION 2 END*/
 
 /*SECTION 3*/
