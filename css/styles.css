@@ -72,7 +72,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -92,7 +91,6 @@ img {
 }
 .inside-header {
   display: flex;
-  align-items: center;
 }
 
 /*HEADER END*/
