@@ -1,6 +1,8 @@
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -12,10 +14,7 @@ a {
 img {
   display: block;
 }
-li {
-  padding-left: 0px;
-  margin: 0px;
-}
+
 /*header*/
 .body {
   font-family: "Roboto", sans-serif;
@@ -35,6 +34,8 @@ li {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo .studio {
   color: #2e2f42;
@@ -256,6 +257,7 @@ li {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .f_studio {
   color: #f4f4fd;
