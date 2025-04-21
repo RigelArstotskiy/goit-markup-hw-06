@@ -360,12 +360,13 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.f-content {
+.f_content {
   display: flex;
   align-items: baseline;
 }
 .f-l-t {
   margin-right: 120px;
+  margin-left: 156px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -385,6 +386,7 @@ img {
 .f_text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .social {
 }
@@ -395,6 +397,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-top: 0;
 }
 .social-link {
   display: flex;
