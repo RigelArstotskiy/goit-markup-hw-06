@@ -13,6 +13,14 @@ a {
 img {
   display: block;
 }
+h1.h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 /*header*/
 .body {
@@ -124,7 +132,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(./images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
