@@ -85,7 +85,7 @@ p {
 .link:focus {
   color: #404bbf;
 }
-.link::after {
+.fclink::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -132,7 +132,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(./images/people-office.jpg);
+    url(/images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
