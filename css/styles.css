@@ -695,6 +695,7 @@ p {
 }
 
 /* MEDIA START*/
+
 /*TABLET SIZE START*/
 @media (min-width: 768px) and (max-width: 1158px) {
   .navigation {
@@ -804,4 +805,131 @@ p {
 }
 
 /*TABLET SIZE END*/
+
+@media (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
+/*PHONE SIZE START*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /*HEADER START*/
+
+  .navigation {
+    margin-left: 16px;
+  }
+  .menu-list,
+  .address {
+    display: none;
+  }
+  .burger {
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  /*SECTION 2 START*/
+
+  .section-two {
+    padding: 0;
+  }
+  .box-icon {
+    display: none;
+  }
+  .advantage_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+  }
+  .advantage_text {
+    font-weight: 500;
+  }
+  .advantage {
+    margin: 0 16px;
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+  }
+  .advantage-list {
+    width: 100%;
+  }
+  /*SECTION 3 START*/
+
+  .section-three {
+    padding: 96px 0;
+  }
+  .team-list {
+    margin: 0 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .team_name {
+    width: 100%;
+  }
+
+  /*SECTION 4 START*/
+
+  .section-four {
+    padding: 96px 0;
+  }
+  .portfolio_list {
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .list-product {
+    width: 100%;
+  }
+
+  /*FOOTER START*/
+  .footer {
+    padding: 96px 0;
+  }
+  .f_content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+  .f-l-t {
+    margin: 0;
+    text-align: center;
+    gap: 16px;
+  }
+  .logo-footer {
+    margin: 0;
+  }
+  .social {
+    text-align: center;
+    gap: 16px;
+  }
+  .subscribe {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .subscribe-button {
+    max-width: 165px;
+    height: 40px;
+  }
+}
+/*PHONE SIZE END*/
+
 /*MEDIA END*/
