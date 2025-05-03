@@ -254,18 +254,20 @@ p {
   display: flex;
   margin-left: 156px;
   margin-right: 156px;
-  justify-content: space-between;
   gap: 24px;
 }
 .team_name {
   background-color: #ffffff;
-  width: auto;
-  height: auto;
+  width: calc((100% - 72px) / 4);
   margin-left: 0;
   margin-right: 0;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.team_name img {
+  width: 100%;
+  height: auto;
 }
 .team_fullname {
   font-weight: 500;
