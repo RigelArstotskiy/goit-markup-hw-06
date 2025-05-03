@@ -928,6 +928,9 @@ p {
   .burger {
     display: none;
   }
+  .burger-modal-menu {
+    display: none;
+  }
 }
 
 /*PHONE SIZE START*/
